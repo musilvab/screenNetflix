@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <title>Netflix</title>
+</head>
+    <body>
+        <header class="cabecalho">
+                <div class="cabecalho__container">
+                    <img src="img/netflix.png" alt="Logo da Netflix" class="cabecalho__imagem">
+                    <a href="#" class="cabecalho__link">Início</a></li>
+                    <a href="#" class="cabecalho__link">Séries</a></li>
+                    <a href="#" class="cabecalho__link">Filmes</a></li>
+                    <a href="#" class="cabecalho__link">Bombando</a></li>
+                    <a href="#" class="cabecalho__link">Minha Lista</a></li>
+                </div>
+                <div class="cabecalho__container">
+                    <a href="#" class="cabecalho__icone"><img src="img/lupa.png" alt="Pesquisar"></a>
+                    <a href="#" class="cabecalho__icone"><img src="img/notificacao.png" alt="Notificação"></a>
+                    <a href="#" class="cabecalho__icone icone__perfil"><img src="img/Netflix-avatar.png" alt="Perfil"></a>
+                </div>
+        </header>
+        <main class="principal">
+            <section class="banner">
+                <div class="container__secundario">
+                    <img class="container__imagem" src="img/Stranger-Things-logo.png" alt="Título">
+                    <p class="container__texto">Um grupo de amigos se envolve em uma série de eventos sobrenaturais na pacata cidade de Hawkins. Eles enfrentam criaturas monstruosas, agências secretas do governo e se aventuram em dimensões paralelas.</p>
+                    <a href="#" class="container__botao botao__assistir"><i class="botao__icones"><img src="img/play.png" alt="Botão Plays"></i>Assistir</a>
+                    <a href="#" class="container__botao botao__informacoes"><i class="botao__icones"><img src="img/informacoes.png" alt="Botão Play"></i>Mais Informações</a>
+                </div>
+            </section>
+            <section class="catalogo">
+                <div class="catalogo__container">
+                    <h3 class="secao__titulo">Bombando</h3>
+                    <div class="swiper">
+                        <div class="swiper-pagination"></div>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="img/serie5.png" alt="Uma Advogada extraordinaria" class="secao__imagem"></div>
+                                <div class="swiper-slide"><img src="img/filme5.png" alt="Agente Oculto" class="secao__imagem"></div>
+                                <div class="swiper-slide"> <img src="img/filme6.png" alt="Família Mitchel" class="secao__imagem"></div>
+                                <div class="swiper-slide"><img src="img/filme7.png" alt="O Culpado" class="secao__imagem"></div>
+                                <div class="swiper-slide"><img src="img/filme4.png" alt="Esquadrão 6" class="secao__imagem"></div>
+                                <div class="swiper-slide"><img src="img/serie2.png" alt="the Sandman" class="secao__imagem"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalogo__container">
+                    <h3 class="secao__titulo">Recomendados</h3>
+                    <div class="swiper">
+                        <div class="swiper-pagination"></div>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="img/serie4.png" alt="Uma Advogada extraordinaria" class="secao__imagem"></div>
+                                <div class="swiper-slide"><img src="img/filme1.png" alt="Agente Oculto" class="secao__imagem"></div>
+                                <div class="swiper-slide"> <img src="img/filme6.png" alt="Família Mitchel" class="secao__imagem"></div>
+                                <div class="swiper-slide"><img src="img/filme2.png" alt="O Culpado" class="secao__imagem"></div>
+                                <div class="swiper-slide"><img src="img/filme3.png" alt="Esquadrão 6" class="secao__imagem"></div>
+                                <div class="swiper-slide"><img src="img/serie3.png" alt="the Sandman" class="secao__imagem"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalogo__container">
+                    <h3 class="secao__titulo">Melhores Séries</h3>
+                    <div class="swiper">
+                        <div class="swiper-pagination"></div>
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="img/serie1.png" alt="Uma Advogada extraordinaria" class="secao__imagem"></div>
+                                <div class="swiper-slide"><img src="img/serie3.png" alt="Agente Oculto" class="secao__imagem"></div>
+                                <div class="swiper-slide"> <img src="img/serie5.png" alt="Família Mitchel" class="secao__imagem"></div>
+                                <div class="swiper-slide"><img src="img/serie2.png" alt="O Culpado" class="secao__imagem"></div>
+                                <div class="swiper-slide"><img src="img/serie4.png" alt="Esquadrão 6" class="secao__imagem"></div>
+                                <div class="swiper-slide"><img src="img/serie6.png" alt="Cobra Kai" class="secao__imagem"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="rodape">
+            <div class="container__icones">
+                <a href="#" class="rodape__link"><img src="img/facebook.png" alt="Facebook"></a>
+                <a href="#" class="rodape__link"><img src="img/instagram.png" alt="Instagram"></a>
+                <a href="#" class="rodape__link"><img src="img/twitter.png" alt="Twitter"></a>
+                <a href="#" class="rodape__link"><img src="img/youtube.png" alt="Youtube"></a>
+            </div>
+            <ul class="rodape__lista">
+                <li class="rodape__lista--item">Idioma e Legenda</li>
+                <li class="rodape__lista--item">Imprensa</li>
+                <li class="rodape__lista--item">Privacidade</li>
+                <li class="rodape__lista--item">Entre em contato</li>
+            </ul>
+            <ul class="rodape__lista">
+                <li class="rodape__lista--item">Audio e descrição</li>
+                <li class="rodape__lista--item">Relações com investidores</li>
+                <li class="rodape__lista--item">Avisos legais</li>
+            </ul>
+            <ul class="rodape__lista">
+                <li class="rodape__lista--item">Centro de ajuda</li>
+                <li class="rodape__lista--item">Carreiras</li>
+                <li class="rodape__lista--item">Preferências e Cookies</li>
+            </ul>
+            <ul class="rodape__lista">
+                <li class="rodape__lista--item">Cartão pré-pago</li>
+                <li class="rodape__lista--item">Termos de uso</li>
+                <li class="rodape__lista--item">Informações Corporativas</li>
+            </ul>
+
+            <a href="#" class="rodape__codigo">Código do Serviço</a>
+
+            <p class="rodape__texto">® 1997-2023 Netflix, Inc</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>  
+        <script>
+            const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 4,
+            pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+                },
+    
+            });
+        </script> 
+    </body>
+</html>

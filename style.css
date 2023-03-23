@@ -1,0 +1,22 @@
+@import url(src/reset.css);
+@import url(src/banner.css);
+@import url(src/header.css);
+@import url(src/catalogo.css);
+@import url(src/footer.css);
+
+:root {
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --fonte-principal: 'Inter';
+    --cinza: #CCCCCC;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    color: var(--branco);
+    height: 100%;
+    width: 100%;
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    
+}

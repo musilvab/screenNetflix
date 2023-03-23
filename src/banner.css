@@ -1,0 +1,58 @@
+.banner {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: auto;
+}
+
+.container__secundario {
+    margin-top: 100px;
+    margin-left: 70px;
+    width: 75%;
+}
+
+
+
+.container__imagem {
+    width: 80%;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.container__texto {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    margin-bottom: 32px;
+}
+
+.container__botao {
+    background-color: var(--branco);
+    padding: 10px 35px;
+    text-decoration: none;
+    color: var(--preto);
+    font-weight: 600;
+    border-radius: 3px;
+    text-shadow: 1px 1px 25px var(--preto);
+    margin-right: 8px;
+    transition: all 0.3s;
+}
+
+.container__botao:hover {
+    transform: scale(1.04);
+}
+
+.botao__assistir {
+    background-color: var(--branco);
+    transition: all 0.3s;
+}
+
+.botao__informacoes {
+    color: var(--branco);
+    background: #4D504C95;
+    transition: all 0.3s;
+}
+
+.botao__icones {
+    margin-right: 8px ;
+}
+

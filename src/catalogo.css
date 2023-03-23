@@ -1,0 +1,40 @@
+.catalogo {
+    margin: 160px 70px 20px;
+}
+
+.secao__titulo {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.catalogo__container {
+    margin: 48px 0;
+}
+
+.secao__imagem {
+    margin: 0px 5px;
+    transition: all 0.5s;
+}
+
+.secao__imagem:hover {
+    transform: scale(1.03);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    display: none;
+}
+
+.swiper-slide {
+    margin: 0;
+}
+
+.swiper-wrapper {
+    padding: 0;
+}
+
