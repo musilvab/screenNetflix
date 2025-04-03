@@ -1,4 +1,4 @@
-# 📺 Netflix Page - 7 Days of Code
+# 📺 Screen Netflix - 7 Days of Code
 
 ---
 
@@ -20,7 +20,7 @@ Este é um projeto de **da página inicial da Netflix**, desenvolvido durante o 
 
 1️⃣ Acesse o link do projeto:
 ```bash
-  git clone https://github.com/seu-usuario/seu-repositorio.git
+  screen-netflix.vercel.app
 ```
 
 ---
